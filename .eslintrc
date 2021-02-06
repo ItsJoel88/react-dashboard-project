@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "no-console": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off"
+  },
+  "plugins": ["react", "prettier"],
+  "extends": [
+    "react-app",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ]
+}
