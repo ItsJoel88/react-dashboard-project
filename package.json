@@ -20,9 +20,9 @@
   },
   "scripts": {
     "serve": "serve -s build",
-    "pm2-start": "pm2 start npm --name \"super-agent-dashboard-v1\" -- run serve",
-    "pm2-restart": "pm2 restart super-agent-dashboard-v1",
-    "pm2-log": "pm2 logs super-agent-dashboard-v1",
+    "pm2-start": "pm2 start npm --name \"react-dashboard-v1\" -- run serve",
+    "pm2-restart": "pm2 restart react-dashboard-v1",
+    "pm2-log": "pm2 logs react-dashboard-v1",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
