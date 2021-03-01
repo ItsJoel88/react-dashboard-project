@@ -1,0 +1,21 @@
+.custom-dropdown {
+  z-index: 1800 !important;
+  position: static !important;
+  transform: none !important;
+}
+
+.custom-dropdown-btn {
+  text-transform: capitalize !important;
+  padding: 0 !important;
+  margin-left: -15px !important;
+}
+
+.custom-dropdown-btn:hover {
+  background-color: transparent !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .custom-dropdown-btn {
+    margin: 0 !important;
+  }
+}

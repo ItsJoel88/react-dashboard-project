@@ -1,0 +1,11 @@
+export const PREFIX = "FORM";
+
+export const INIT = `[${PREFIX}] INIT`;
+export const SET_STATE = `[${PREFIX}] SET_STATE`;
+export const CHANGE_ATTRIBUTE = `[${PREFIX}] CHANGE_ATTRIBUTE`;
+export const FETCH_API = `[${PREFIX}] UPDATE FETCH_API`;
+export const FETCH_DATA_API = `[${PREFIX}] FETCH_DATA_API`;
+export const FETCH_DETAIL_API = `[${PREFIX}] FETCH_DETAIL_API`;
+export const FETCH_SUBMIT_API = `[${PREFIX}] FETCH_SUBMIT_API`;
+export const FETCH_SELECTOPTIONBARANG_API = `[${PREFIX}] FETCH_SELECTOPTIONBARANG_API`;
+export const RESET = `[${PREFIX}] RESET`;

@@ -1,9 +1,17 @@
 import PageRouter from "router/router";
+import { Provider } from "react-redux";
+import PropTypes from "prop-types";
 
-export default function App() {
+export default function App({ store }) {
   return (
     <>
-      <PageRouter />
+      <Provider store={store}>
+        <PageRouter />
+      </Provider>
     </>
   );
 }
+App.propTypes = {
+  store: PropTypes.any,
+  persistor: PropTypes.any,
+};

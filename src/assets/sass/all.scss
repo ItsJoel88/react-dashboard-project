@@ -1,0 +1,29 @@
+@import "dialog";
+@import "login";
+@import "navbar";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #217dd8 !important;
+}
+
+.btn-navbar {
+  color: #fff !important;
+}
+
+.MuiIconButton-root:hover, .MuiIconButton-root:active {
+  background: transparent !important;
+}
+
+.nopadding {
+  padding: 0 !important;
+}

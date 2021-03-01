@@ -17,13 +17,19 @@
   "rules": {
     "no-console": "warn",
     "react-hooks/exhaustive-deps": "warn",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": ["@material-ui/*/*/*", "!@material-ui/core/test-utils/*"]
+      }
+    ]
   },
   "plugins": ["react", "prettier"],
   "extends": [
     "react-app",
     "prettier",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:react/recommended"
+    // "plugin:prettier/recommended"
   ]
 }
